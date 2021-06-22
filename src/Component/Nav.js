@@ -12,7 +12,7 @@ class Nav extends React.Component {
 
     render() {
         return (
-            <nav>
+            <nav className="router_nav">
                 <button onClick={this.goToLogin}>LoginPage</button>
                 <button onClick={this.goToMain}>MainPage</button>
             </nav>

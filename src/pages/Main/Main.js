@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/common.css';
-import './Main.css';
+import './Main.scss';
 
 class Main extends React.Component {
     render() {
@@ -76,8 +76,8 @@ class Main extends React.Component {
                         </div>
                     </div>
                     <div className="main-right">
-                        <div className="main_right_nav">
-                            <div className="main_right_title">
+                        <div className="main-right-nav">
+                            <div className="main-right-title">
                                 <img src="./images/wecode.jpg" />
                                 <h1>
                                     Wecode_bootcamp<p>WeCode | 위코드</p>
